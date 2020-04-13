@@ -1,0 +1,59 @@
+html, body {
+	height: 100%;
+}
+nav {
+	z-index: 2;
+}
+iframe{
+	display: block;
+	position: absolute;
+	margin-left: 5%;
+	border: 0px;
+	width:95%; 
+	height:90%;
+}
+.sidebar {
+	height: 100%;
+	width: 5%;
+	min-width: 50px; 
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: black;
+	overflow-x: hidden;
+  	padding-top: 5%;
+}
+.sidebar a {
+	padding: 6px 8px 0px 0px;
+	text-decoration: none;
+	font-size: 30px;
+	text-align: center;
+	color: #818181;
+	display: block;
+	text-decoration: none;
+}
+.sidebar p {
+	font-size:10px;
+}
+.sidebar a:hover {
+  	background-color: #f1f1f1;
+  	text-decoration: none;
+}
+.ativo {
+	background-color: #343a40;
+}
+@media screen and (max-height: 450px) {
+ 	.sidebar {padding-top: 15px;}
+ 	.sidebar i {font-size: 15px;}
+ 	.sidebar a {font-size: 10px;}
+}
+.nomeavatar {
+	margin-left:10px;
+}
+.controle {
+	width:99%;
+	margin:0px 0px 5px 1%;
+	display: inline-block;
+}
+

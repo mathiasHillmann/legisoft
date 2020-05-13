@@ -1,4 +1,4 @@
-## Legisoft
+## Logisoft
 
 Sistema web para cadastrar, editar e excluir os seguintes dados:
 
